@@ -26,5 +26,9 @@ class PromotionalActivity : AppCompatActivity() {
 
         val adapterdenGelenIntent= intent
         val secilenKahraman=  adapterdenGelenIntent.getSerializableExtra("secilenKitap") as BookLens
+
+        binding.imageView.setImageResource(secilenKahraman.picture)
+        binding.nameTextView.text= secilenKahraman.name
+        binding.WriterTextView.text= secilenKahraman.writer
     }
 }
