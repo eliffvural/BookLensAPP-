@@ -8,9 +8,11 @@ import androidx.core.view.WindowInsetsCompat
 import com.example.booklensapp.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
+
+    private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        private lateinit var binding: ActivityMainBinding
 
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
