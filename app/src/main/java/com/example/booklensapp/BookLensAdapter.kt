@@ -29,6 +29,7 @@ import com.example.booklensapp.databinding.RecyclerRowBinding
 
             val intent= Intent(holder.itemView.context, PromotionalActivity::class.java)
             holder.itemView.context.startActivity(intent)
+            intent.putExtra("secilenKitap", bookList[position])
 
         }
     }
