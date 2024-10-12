@@ -10,6 +10,9 @@ import com.example.booklensapp.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
+    private lateinit var bookList: ArrayList<BookLens>
+
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
 
@@ -29,6 +32,8 @@ class MainActivity : AppCompatActivity() {
         val book2= BookLens("Book2", "Writer2", R.drawable.bookpicture2)
         val book3= BookLens("Book3", "Writer3", R.drawable.bookpicture3)
         val book4= BookLens("Book4", "Writer4", R.drawable.bookpicture4)
+
+        bookList=BookLens()
 
 
     }
