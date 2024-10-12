@@ -23,5 +23,8 @@ class PromotionalActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val adapterdenGelenIntent= intent
+        val secilenKahraman=  adapterdenGelenIntent.getSerializableExtra("secilenKitap") as BookLens
     }
 }
