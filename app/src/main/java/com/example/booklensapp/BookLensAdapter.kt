@@ -1,5 +1,6 @@
 package com.example.booklensapp
 
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
@@ -23,6 +24,13 @@ import com.example.booklensapp.databinding.RecyclerRowBinding
 
     override fun onBindViewHolder(holder: BookLensViewHolder, position: Int) {
         holder.binding.textViewRecyclerView.text= bookList[position].name
+
+        holder.itemView.setOnClickListener{
+
+            val intent= Intent(holder.itemView.context, PromotionalActivity::class.java)
+            holder.itemView.context.startActivity(intent)
+
+        }
     }
 
 }
