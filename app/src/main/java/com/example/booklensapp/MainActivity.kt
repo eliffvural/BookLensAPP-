@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
 
 
 
+
     override fun onCreate(savedInstanceState: Bundle?) {
 
 
@@ -34,6 +35,8 @@ class MainActivity : AppCompatActivity() {
         val book4= BookLens("Book4", "Writer4", R.drawable.bookpicture4)
 
         bookList= arrayListOf(book,book2,book3,book4)
+
+        val adapter= BookLensAdapter(bookList)
 
 
     }
