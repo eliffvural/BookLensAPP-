@@ -1,6 +1,8 @@
 package com.example.booklensapp
 
-class BookLens ( val name: String, val writer: String, val picture: Int){
+import java.io.Serializable
+
+class BookLens ( val name: String, val writer: String, val picture: Int): Serializable{
 
 
 }
