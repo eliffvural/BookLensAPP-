@@ -24,5 +24,12 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
+
+        val book= BookLens("Book1", "Writer1", R.drawable.bookpicture)
+        val book2= BookLens("Book2", "Writer2", R.drawable.bookpicture2)
+        val book3= BookLens("Book3", "Writer3", R.drawable.bookpicture3)
+        val book4= BookLens("Book4", "Writer4", R.drawable.bookpicture4)
+
+
     }
 }
