@@ -33,7 +33,7 @@ class MainActivity : AppCompatActivity() {
         val book3= BookLens("Book3", "Writer3", R.drawable.bookpicture3)
         val book4= BookLens("Book4", "Writer4", R.drawable.bookpicture4)
 
-        bookList=BookLens()
+        bookList= arrayListOf(book,book2,book3,book4)
 
 
     }
