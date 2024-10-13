@@ -7,6 +7,7 @@ import androidx.core.view.ViewCompat
 import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.booklensapp.databinding.ActivityMainBinding
+import com.example.booklensapp.databinding.FragmentFirstBinding
 
 class MainActivity : AppCompatActivity() {
 
