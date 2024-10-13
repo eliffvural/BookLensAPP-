@@ -29,6 +29,10 @@ class FirstFragment : Fragment() {
         return view
     }
 
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+    }
+
     fun next(view: View){
 
     }
